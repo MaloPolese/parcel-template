@@ -1,0 +1,10 @@
+$font-folder: '../public/fonts/';
+
+@mixin font-face($font-family, $url, $font-weight: 400, $font-style: normal) {
+  @font-face {
+    font-family: $font-family;
+    src: url('#{$url}.ttf') format('truetype');
+    font-weight: $font-weight;
+    font-style: $font-style;
+  }
+}
