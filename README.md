@@ -6,6 +6,7 @@ Quick parcel starter project.
 
 - [Prettier](https://prettier.io/)
 - [Scss](https://sass-lang.com/)
+- [Typescrpt](https://www.typescriptlang.org/)
 - [Editor Config](https://editorconfig.org/)
 
 # Install

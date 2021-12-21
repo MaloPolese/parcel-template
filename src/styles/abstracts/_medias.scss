@@ -4,13 +4,3 @@ $breakpoints: (
   md: 1280px,
   lg: 1920px,
 );
-
-@mixin bp($key) {
-  @if map-has-key($breakpoints, $key) {
-    $value: map-get($breakpoints, $key);
-
-    @media screen and (min-width: $value) {
-      @content;
-    }
-  }
-}
